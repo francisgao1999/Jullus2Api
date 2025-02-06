@@ -15,15 +15,15 @@ import (
 )
 
 var modelMapping = map[string]string{
-	"gpt-4o-mini":  "GPT-4o mini",
-	"gpt-4":  "GPT-4",
+	"gpt-4o-mini": "GPT-4o mini",
+	"gpt-4": "GPT-4",
 	"claude-haiku": "Claude Haiku",
-	"llama-3":      "Llama 3",
-	"gemini-1.5":   "Gemini 1.5",
+	"llama-3": "Llama 3",
+	"gemini-1.5": "Gemini 1.5",
 	"gemini-flash": "Gemini Flash",
-	"Claude-3.5-sonnet":    "Claude Sonnet",
-	"o1":    "o1",
-	"o1-mini":    "o1-mini",
+	"claude-3.5-sonnet": "Claude Sonnet",
+	"o1": "o1",
+	"o1-mini": "o1-mini",
 }
 
 func getCurrentTimestamp() int64 {
