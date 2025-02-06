@@ -17,7 +17,7 @@ import (
 var modelMapping = map[string]string{
 	"gpt-4o-mini": "GPT-4o mini",
 	"gpt-4": "GPT-4",
-	"claude-haiku": "Claude Haiku",
+	"claude-3.5-haiku": "Claude Haiku",
 	"llama-3": "Llama 3",
 	"gemini-1.5": "Gemini 1.5",
 	"gemini-flash": "Gemini Flash",
